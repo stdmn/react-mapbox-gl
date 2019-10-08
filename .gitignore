@@ -2,12 +2,9 @@
 .vscode
 
 vendor/
-lib/
 lib-esm/
-dist/
 es/
 www/
 node_modules/
-bundle.js
 npm-debug.log
 yarn.lock
