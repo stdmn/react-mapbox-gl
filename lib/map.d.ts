@@ -94,7 +94,7 @@ declare const ReactMapboxFactory: ({ accessToken, apiUrl, minZoom, maxZoom, hash
         container?: HTMLElement | undefined;
         calcCenter: (bounds: [[number, number], [number, number]]) => [number, number];
         componentDidMount(): void;
-        componentWillUnmount(): void;
+        componentDidUnmount(): void;
         componentWillReceiveProps(nextProps: Props & Events): null;
         setRef: (x: HTMLElement | null) => void;
         render(): JSX.Element;
@@ -115,7 +115,7 @@ declare const ReactMapboxFactory: ({ accessToken, apiUrl, minZoom, maxZoom, hash
         container?: HTMLElement | undefined;
         calcCenter: (bounds: [[number, number], [number, number]]) => [number, number];
         componentDidMount(): void;
-        componentWillUnmount(): void;
+        componentDidUnmount(): void;
         componentWillReceiveProps(nextProps: Props & Events): null;
         setRef: (x: HTMLElement | null) => void;
         render(): JSX.Element;

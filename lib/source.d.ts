@@ -15,11 +15,11 @@ export interface LayerWithBefore extends Layer {
 export declare class Source extends React.Component<Props> {
     private id;
     private onStyleDataChange;
-    componentWillMount(): void;
+    componentDidMount(): void;
     private initialize;
     private onData;
     removeSource(): LayerWithBefore[];
-    componentWillUnmount(): void;
+    componentDidUnmount(): void;
     componentWillReceiveProps(props: Props): void;
     render(): null;
 }

@@ -28,7 +28,7 @@ export class Source extends React.Component<Props> {
     }
   };
 
-  public componentWillMount() {
+  public componentDidMount() {
     const { map } = this.props;
 
     map.on('styledata', this.onStyleDataChange);
@@ -95,7 +95,7 @@ export class Source extends React.Component<Props> {
     return [];
   }
 
-  public componentWillUnmount() {
+  public componentDidUnmount() {
     const { map } = this.props;
 
     if (!map || !map.getStyle()) {

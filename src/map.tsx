@@ -282,7 +282,7 @@ const ReactMapboxFactory = ({
       this.listeners = listenEvents(events, this.props, map);
     }
 
-    public componentWillUnmount() {
+    public componentDidUnmount() {
       const { map } = this.state;
       this._isMounted = false;
 
