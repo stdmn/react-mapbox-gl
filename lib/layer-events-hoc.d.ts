@@ -25,7 +25,7 @@ export declare function layerMouseTouchEvents(WrappedComponent: React.ComponentC
         onFeatureDragStart: (evt: any) => void;
         onFeatureDrag: (evt: any) => void;
         onFeatureDragEnd: (evt: any) => void;
-        componentWillMount(): void;
+        componentDidMount(): void;
         componentWillUnmount(): void;
         render(): JSX.Element;
         context: any;
@@ -56,7 +56,7 @@ export declare function layerMouseTouchEvents(WrappedComponent: React.ComponentC
         onFeatureDragStart: (evt: any) => void;
         onFeatureDrag: (evt: any) => void;
         onFeatureDragEnd: (evt: any) => void;
-        componentWillMount(): void;
+        componentDidMount(): void;
         componentWillUnmount(): void;
         render(): JSX.Element;
         context: any;

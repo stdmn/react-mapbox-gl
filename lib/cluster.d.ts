@@ -36,9 +36,9 @@ export declare class Cluster extends React.Component<Props, State> {
     };
     state: State;
     private featureClusterMap;
-    componentWillMount(): void;
+    componentDidMount(): void;
     componentWillUnmount(): void;
-    componentWillReceiveProps(nextProps: Props): void;
+    UNSAFE_componentWillReceiveProps(nextProps: Props): void;
     private childrenChange;
     private mapChange;
     private feature;

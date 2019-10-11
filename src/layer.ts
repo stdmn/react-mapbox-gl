@@ -242,7 +242,7 @@ export default class Layer extends React.Component<Props> {
     }
   };
 
-  public componentWillMount() {
+  public componentDidMount() {
     const { map } = this.props;
 
     this.initialize();

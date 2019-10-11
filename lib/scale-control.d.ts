@@ -23,7 +23,7 @@ export declare class ScaleControl extends React.Component<Props, State> {
         chosenScale: number;
         scaleWidth: number;
     };
-    componentWillMount(): void;
+    componentDidMount(): void;
     componentWillUnmount(): void;
     private setScale;
     private _getDistanceTwoPoints;

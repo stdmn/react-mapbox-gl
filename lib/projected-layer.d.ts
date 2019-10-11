@@ -31,7 +31,7 @@ export declare class ProjectedLayer extends React.Component<Props, OverlayParams
     private handleMapMove;
     componentDidMount(): void;
     private havePropsChanged;
-    componentWillReceiveProps(nextProps: Props): void;
+    UNSAFE_componentWillReceiveProps(nextProps: Props): void;
     componentWillUnmount(): void;
     render(): JSX.Element;
 }
