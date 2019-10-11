@@ -20,7 +20,7 @@ export declare class Source extends React.Component<Props> {
     private onData;
     removeSource(): LayerWithBefore[];
     componentDidUnmount(): void;
-    componentWillReceiveProps(props: Props): void;
+    UNSAFE_componentWillReceiveProps(props: Props): void;
     render(): null;
 }
 declare const _default: <T>(props: T) => JSX.Element;
