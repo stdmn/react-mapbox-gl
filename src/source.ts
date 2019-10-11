@@ -95,7 +95,7 @@ export class Source extends React.Component<Props> {
     return [];
   }
 
-  public componentDidUnmount() {
+  public componentWillUnmount() {
     const { map } = this.props;
 
     if (!map || !map.getStyle()) {

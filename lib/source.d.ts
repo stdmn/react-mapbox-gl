@@ -19,7 +19,7 @@ export declare class Source extends React.Component<Props> {
     private initialize;
     private onData;
     removeSource(): LayerWithBefore[];
-    componentDidUnmount(): void;
+    componentWillUnmount(): void;
     UNSAFE_componentWillReceiveProps(props: Props): void;
     render(): null;
 }
