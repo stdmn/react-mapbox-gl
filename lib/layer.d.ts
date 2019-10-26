@@ -54,7 +54,7 @@ export default class Layer extends React.Component<Props> {
     private onStyleDataChange;
     componentDidMount(): void;
     componentWillUnmount(): void;
-    componentWillReceiveProps(props: Props): void;
+    UNSAFE_componentWillReceiveProps(props: Props): void;
     getChildren: () => JSX.Element[];
     render(): null;
 }

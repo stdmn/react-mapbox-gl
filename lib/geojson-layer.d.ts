@@ -82,7 +82,7 @@ export declare class GeoJSONLayer extends React.Component<Props> {
     componentDidMount(): void;
     componentWillUnmount(): void;
     isGeoJSONSource: (source?: MapboxGL.GeoJSONSourceRaw | MapboxGL.VectorSource | MapboxGL.RasterSource | MapboxGL.RasterDemSource | MapboxGL.GeoJSONSource | MapboxGL.VideoSource | MapboxGL.ImageSource | MapboxGL.CanvasSource | undefined) => source is MapboxGL.GeoJSONSource;
-    componentWillReceiveProps(props: Props): void;
+    UNSAFE_componentWillReceiveProps(props: Props): void;
     render(): null;
 }
 declare const _default: <T>(props: T) => JSX.Element;
