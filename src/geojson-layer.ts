@@ -271,7 +271,7 @@ export class GeoJSONLayer extends React.Component<Props> {
     !!source &&
     typeof (source as MapboxGL.GeoJSONSource).setData === 'function';
 
-  public componentWillReceiveProps(props: Props) {
+  public UNSAFE_componentWillReceiveProps(props: Props) {
     const { data, before, layerOptions, map } = this.props;
     const source = map.getSource(this.id);
     if (!this.isGeoJSONSource(source)) {
