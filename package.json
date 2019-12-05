@@ -65,10 +65,11 @@
     "@turf/bbox": "4.7.3",
     "@turf/helpers": "4.7.3",
     "deep-equal": "1.0.1",
+    "mapbox-gl": "^1.6.0",
     "supercluster": "3.0.2"
   },
   "peerDependencies": {
-    "mapbox-gl": "^1.1.1",
+    "mapbox-gl": "^1.6.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
@@ -92,7 +93,6 @@
     "enzyme-adapter-react-16": "1.6.0",
     "husky": "^0.14.3",
     "jest": "23.6.0",
-    "mapbox-gl": "^1.1.1",
     "prettier": "1.10.2",
     "prop-types": "15.6.2",
     "react": "^16.8.6",
